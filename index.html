@@ -1,11 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Konversi Suhu</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <!--Header Content-->
+    <header>
+      <h1>Website Konversi Suhu - Riko Apriliyawan</h1>
+    </header>
+
+    <!--Main Content-->
+    <main>
+      <div>
+        <p>Masukkan Suhu derajat celcius (&deg;C) Ke kotak diBawah....</p>
+      </div>
+
+      <!--Form Konversi Suhu-->
+      <form class="padding-medium">
+
+        <!--inputan Suhu-->
+        <div>
+          <label for="Input-Suhu">Celcius (&deg;C):</label>
+          <input type="number" id="Input-Suhu" name="Suhu" />
+        </div>
+
+        <!--Tombol Action-->
+        <div>
+          <button class="bg-lightseagreen">Konversi</button>
+          <button class="bg-lightcoral">Reset</button>
+          <button class="bg-lightblue">Reverse</button>
+        </div>
+      </form>
+
+      <!--Hasil Konversi-->
+      <div class="padding-medium">
+        <label for="hasil-suhu">Fahrenheit (&deg;F)</label>
+        <textarea id="hasil-suhu" readonly></textarea>
+      </div>
+
+      <!--Penjelasan-->
+      <div class="padding-medium">
+        <label for="detail-suhu">Penjelasan</label>
+        <textarea id="detail-suhu"></textarea>
+      </div>
+
+      <!--Keterangan Formula-->
+      <div>
+        <header>
+          <h2>Cara Konversi Celcius (&deg;C) Ke Fahrenheit (&deg;F)</h2>
+        </header>
+
+        <hr />
+
+        <div>
+          <p>Suhu <sup>S</sup> dalam derajat Fahrenheit (&deg;F) sama dengan suhu <sup>S</sup> dalam derajat
+          Celcius (&deg;C) kali 9/5 tambah 32.</p>
+          <p class="rumus-content">
+            S<sub>(&deg;F)</sub> = (S<sub>(&deg;C)</sub> x 9/5) + 32
+          </p>
+          <p>Atau</p>
+          <p class="rumus-content">
+            S<sub>(&deg;F)</sub> = (S<sub>(&deg;C)</sub> x 1.8) + 32
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Riko Apriliyawan</p>
+    </footer>
+  </body>
 </html>

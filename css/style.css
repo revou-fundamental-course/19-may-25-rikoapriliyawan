@@ -1,0 +1,54 @@
+body {
+    justify-items: center;
+    font-family: monospace;
+    background-color: salmon
+}
+
+main {
+    padding: 24px;
+    border-radius: 8px;
+    background-color: thistle
+}
+
+input[type=number],
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    border: 0px;
+    padding: 8px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.rumus-content {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Global Usage */
+.padding-medium {
+    padding: 16px;
+}
+
+.bg-lightseagreen {
+    background-color: burlywood;
+}
+
+.bg-lightcoral {
+    background-color: darkcyan;
+}
+
+.bg-lightblue {
+    background-color: salmon;
+}
+
+/* Global Usage */
