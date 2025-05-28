@@ -6,24 +6,6 @@
   const btnReverse = document.querySelector(".bg-lightblue");
   let isCelciusToFahrenheit = true;
 
-
-    // Change Mode
-  const toggleBtn = document.getElementById("toggle-theme");
-  const body = document.body;
-
-  // Toggle dark mode
-  toggleBtn.addEventListener("click", () => {
-    body.classList.toggle("dark");
-    const icon = toggleBtn.querySelector("i");
-    icon.classList.toggle("fa-moon");
-    icon.classList.toggle("fa-sun");
-  });
-
-  // Tambahkan animasi masuk saat load
-  window.addEventListener("DOMContentLoaded", () => {
-    document.querySelector("main").classList.add("slide-in");
-  });
-
   btnKonversi.addEventListener("click", function (e) {
     e.preventDefault();
     const inputValue = parseFloat(inputSuhu.value);
