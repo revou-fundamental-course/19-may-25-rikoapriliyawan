@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Website Konversi Suhu</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   </head>
   <body>
     <!--Header Content-->
     <header>
-      <h1>Website Konversi Suhu - Riko Apriliyawan</h1>
+      <h1>Konversi Suhu</h1>
     </header>
 
     <!--Main Content-->
@@ -20,7 +22,6 @@
 
       <!--Form Konversi Suhu-->
       <form class="padding-medium">
-
         <!--inputan Suhu-->
         <div>
           <label for="Input-Suhu">Celcius (&deg;C):</label>
@@ -29,9 +30,15 @@
 
         <!--Tombol Action-->
         <div>
-          <button class="bg-lightseagreen">Konversi</button>
-          <button class="bg-lightcoral">Reset</button>
-          <button class="bg-lightblue">Reverse</button>
+          <button class="bg-lightseagreen">
+            <i class="fas fa-temperature-high"></i> Konversi
+          </button>
+          <button class="bg-lightcoral">
+            <i class="fas fa-undo"></i> Reset
+          </button>
+          <button class="bg-lightblue">
+            <i class="fas fa-exchange-alt"></i> Reverse
+          </button>
         </div>
       </form>
 
@@ -56,8 +63,10 @@
         <hr />
 
         <div>
-          <p>Suhu <sup>S</sup> dalam derajat Fahrenheit (&deg;F) sama dengan suhu <sup>S</sup> dalam derajat
-          Celcius (&deg;C) kali 9/5 tambah 32.</p>
+          <p>
+            Suhu <sup>S</sup> dalam derajat Fahrenheit (&deg;F) sama dengan suhu
+            <sup>S</sup> dalam derajat Celcius (&deg;C) kali 9/5 tambah 32.
+          </p>
           <p class="rumus-content">
             S<sub>(&deg;F)</sub> = (S<sub>(&deg;C)</sub> x 9/5) + 32
           </p>
@@ -70,7 +79,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2025 Riko Apriliyawan</p>
+      <p>&copy; 2025 Riko Apriliyawan</p>
     </footer>
     <script src="js/script.js"></script>
   </body>
